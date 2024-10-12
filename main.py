@@ -10,7 +10,7 @@ SITE_URL = "https://appbrewery.github.io/Zillow-Clone/"
 FORM_URL = ("https://docs.google.com/forms/d/e/1FAIpQLSdWKtAzjxUt4Fh1YnEpbQ9_UikcrNG1b5zve_ZPmGVYUfgcww/viewform?"
             "usp=sf_link")
 
-# Request the content of the Zillow Clone site
+# Request the content\ of the Zillow Clone site
 response = requests.get(SITE_URL)
 content = response.text
 
